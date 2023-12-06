@@ -78,7 +78,7 @@ jobs:
           context: .
           file: ./webapi/Dockerfile
           build-args: |
-            PORT=${{ env.PORT }}
+            PORT=${{ vars.PORT }}
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
