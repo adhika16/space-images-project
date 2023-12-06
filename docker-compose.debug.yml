@@ -7,7 +7,7 @@ services:
     image: webapi
     build:
       context: .
-      dockerfile: webapi/Dockerfile
+      dockerfile: webapi/Dockerfile.development
       args:
         - configuration=Debug
     ports:
