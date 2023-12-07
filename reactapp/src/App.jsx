@@ -52,7 +52,7 @@ export default class App extends Component {
     }
 
     async populateWeatherData() {
-        const response = await fetch('weatherforecast');
+        const response = await fetch(`${import.meta.env.VITE_REACT_APP_SPACEIMAGES_BASE_API}/weatherforecast`);
         const data = await response.json();
         this.setState({ forecasts: data, loading: false });
     }
