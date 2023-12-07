@@ -15,5 +15,6 @@ services:
       - 5050:5050
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - MyApp__AllowedOrigins=https://localhost:5173,https://localhost:3000
     volumes:
       - ~/.vsdbg:/remote_debugger:rw
