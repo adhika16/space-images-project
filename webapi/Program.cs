@@ -1,3 +1,7 @@
+using StackExchange.Redis;
+using webapi.Services;
+using webapi.Utils;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,6 +20,19 @@ builder.Services.AddCors(options =>
         policy.WithOrigins(allowedOrigin).AllowAnyHeader().AllowAnyMethod();
     });
 });
+
+builder.Services.AddTransient<INasaApiService, NasaApiService>();
+builder.Services.AddHttpClient();
+
+// Retrieve Redis connection string from configuration
+string redisConnectionString = builder.Configuration.GetConnectionString("Redis");
+// Configure Redis connection
+builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(redisConnectionString));
+
+// Configure API key
+NasaApiConfigs nasaApiConfigs = new();
+builder.Configuration.GetSection("NasaApi").Bind(nasaApiConfigs);
+builder.Services.AddSingleton(nasaApiConfigs);
 
 var app = builder.Build();
 
