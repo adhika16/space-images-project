@@ -9,9 +9,13 @@ adhika16/space-images-project is built on the following main stack:
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) – Integrated Development Environment
 - [ESLint](http://eslint.org/) – Code Review
+- [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
 - [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/) – Frameworks (Full Stack)
 - [ASP.NET Core](docs.microsoft.com/en-us/aspnet/core/) – Frameworks (Full Stack)
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
 
@@ -27,9 +31,13 @@ adhika16/space-images-project is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1451/SR2hUhQN.png' alt='Visual Studio'/> [Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx) – Integrated Development Environment
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
+- <img width='25' height='25' src='https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png' alt='Visual Studio Code'/> [Visual Studio Code](https://code.visualstudio.com/) – Text Editor
 - <img width='25' height='25' src='https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png' alt='.NET Core'/> [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/11331/asp.net-core.png' alt='ASP.NET Core'/> [ASP.NET Core](docs.microsoft.com/en-us/aspnet/core/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
 
@@ -40,7 +48,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [adhika16/space-images-project](https://github.com/adhika16/space-images-project)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|21<br/>Tools used|11/25/23 <br/>Report generated|
+|29<br/>Tools used|12/14/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -73,7 +81,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (4)
+## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (5)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'>
@@ -107,12 +115,28 @@ Full tech stack [here](/techstack.md)
   <sub>v18.2.0</sub>
 </td>
 
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'>
+  <br>
+  <sub><a href="https://github.com/rackt/react-router">React Router</a></sub>
+  <br>
+  <sub>v6.20.1</sub>
+</td>
+
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/devops.svg'/> DevOps (6)
+## <img src='https://img.stackshare.io/devops.svg'/> DevOps (9)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'>
+  <br>
+  <sub><a href="https://www.docker.com/">Docker</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'>
   <br>
   <sub><a href="http://eslint.org/">ESLint</a></sub>
@@ -124,6 +148,14 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/1046/git.png' alt='Git'>
   <br>
   <sub><a href="http://git-scm.com/">Git</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'>
+  <br>
+  <sub><a href="https://github.com/features/actions">GitHub Actions</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -145,6 +177,14 @@ Full tech stack [here](/techstack.md)
 </td>
 
 <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/4202/Visual_Studio_Code_logo.png' alt='Visual Studio Code'>
+  <br>
+  <sub><a href="https://code.visualstudio.com/">Visual Studio Code</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'>
   <br>
   <sub><a href="https://vitejs.dev/">Vite</a></sub>
@@ -152,7 +192,9 @@ Full tech stack [here](/techstack.md)
   <sub></sub>
 </td>
 
-<td align='center'>
+</tr>
+<tr>
+  <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png' alt='npm'>
   <br>
   <sub><a href="https://www.npmjs.com/">npm</a></sub>
@@ -177,25 +219,29 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (7)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (11)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (6)
-
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[@types/react](https://www.npmjs.com/@types/react)|v18.2.38|11/23/23|Adhika P |MIT|N/A|
-|[@types/react-dom](https://www.npmjs.com/@types/react-dom)|v18.2.17|11/23/23|Adhika P |MIT|N/A|
-|[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.33.2|11/23/23|Adhika P |MIT|N/A|
-|[eslint-plugin-react-hooks](https://www.npmjs.com/eslint-plugin-react-hooks)|v4.6.0|11/23/23|Adhika P |MIT|N/A|
-|[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|11/23/23|Adhika P |MIT|N/A|
-|[vite](https://www.npmjs.com/vite)|v5.0.2|11/23/23|Adhika P |N/A|N/A|
-
-
-## <img width='24' height='24' src='https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg'/> NuGet (1)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (9)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[Swashbuckle.AspNetCore](https://www.nuget.org/Swashbuckle.AspNetCore)|v6.5.0|11/23/23|Adhika P |BSD-3-Clause|N/A|
+|[@emotion/styled](https://www.npmjs.com/@emotion/styled)|v11.11.0|12/09/23|Adhika P |MIT|N/A|
+|[@types/react](https://www.npmjs.com/@types/react)|v18.2.42|12/09/23|Adhika P |MIT|N/A|
+|[@types/react-dom](https://www.npmjs.com/@types/react-dom)|v18.2.17|12/09/23|Adhika P |MIT|N/A|
+|[eslint-plugin-react](https://www.npmjs.com/eslint-plugin-react)|v7.33.2|12/09/23|Adhika P |MIT|N/A|
+|[eslint-plugin-react-hooks](https://www.npmjs.com/eslint-plugin-react-hooks)|v4.6.0|12/09/23|Adhika P |MIT|N/A|
+|[gh-pages](https://www.npmjs.com/gh-pages)|v6.1.0|12/07/23|Adhika P |MIT|N/A|
+|[react-dom](https://www.npmjs.com/react-dom)|v18.2.0|12/09/23|Adhika P |MIT|N/A|
+|[react-router-dom](https://www.npmjs.com/react-router-dom)|v6.20.1|12/09/23|Adhika P |MIT|N/A|
+|[vite](https://www.npmjs.com/vite)|v5.0.7|12/08/23|dependabot[bot] |N/A|N/A|
+
+
+## <img width='24' height='24' src='https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg'/> NuGet (2)
+
+|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
+|:------|:------|:------|:------|:------|:------|
+|[StackExchange.Redis](https://www.nuget.org/StackExchange.Redis)|v2.7.4|11/26/23|Adhika P |Other|N/A|
+|[Swashbuckle.AspNetCore](https://www.nuget.org/Swashbuckle.AspNetCore)|v6.5.0|12/04/23|dependabot[bot] |BSD-3-Clause|N/A|
 
 <br/>
 <div align='center'>
