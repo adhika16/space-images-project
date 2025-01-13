@@ -1,0 +1,44 @@
+name: "Space Images Project CodeQL config"
+
+disable-default-queries: false
+
+queries:
+  - uses: security-and-quality
+
+paths:
+  - reactapp
+  - webapi
+paths-ignore:
+  - '**/node_modules'
+  - '**/obj'
+  - '**/bin'
+  - '**/dist'
+  - '**/build'
+  - '**/*.test.js'
+  - '**/*.test.ts'
+  - '**/*.spec.js'
+  - '**/*.spec.ts'
+  - '**/Properties'
+  - reactapp/public
+  - '**/aspnetcore-https.js'
+
+languages:
+  - javascript
+  - csharp
+  - typescript
+
+query-filters:
+  - exclude:
+      problem.severity:
+        - warning
+        - recommendation
+
+extraction:
+  javascript:
+    index-typescript: true
+    typescript-features: true
+    index-javascript-in-typescript: true
+  csharp:
+    index-dotnet-sdk: true
+    dotnet:
+      version: "7.0" 

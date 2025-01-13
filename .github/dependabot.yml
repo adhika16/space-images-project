@@ -8,13 +8,21 @@ updates:
   # Enable version updates for npm
   - package-ecosystem: "npm"
     directory: "/reactapp"
-    # Check the npm registry for updates every day (weekdays)
+    # Check the npm registry for updates monthly
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+    # Ignore minor and patch updates
+    ignore:
+      - dependency-type: "direct"
+        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
 
   # Enable version updates for nuget
   - package-ecosystem: "nuget"
     directory: "/webapi"
-    # Check for updates once a week
+    # Check for updates monthly
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+    # Ignore minor and patch updates
+    ignore:
+      - dependency-type: "direct"
+        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
